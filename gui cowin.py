@@ -19,7 +19,7 @@ font2 = ('ariel',20,'bold')
 L1 = Label(window,text='COWIN  Alert App',fg = 'red',bg = 'pink',width = 150,relief = 'solid',font = font2)
 # L1 = Label(window,text='COWIN Alert Software',fg = 'red',bg = '#AACC00',width = 150,relief = 'solid',font = font2)
 L1.pack()
-L2 = Label(window,text = 'by -- Rinku Junwal   (rahulj6688@gmail.com) ',fg = 'green',bg ='yellow',width = 50,font = ('ariel',8,'italic'))
+L2 = Label(window,text = 'by -- Rahul Junwal   (rahulj6688@gmail.com) ',fg = 'green',bg ='yellow',width = 50,font = ('ariel',8,'italic'))
 L2.pack()
 
 dates = datetime.date.today()
